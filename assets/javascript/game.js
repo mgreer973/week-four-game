@@ -33,11 +33,11 @@
 			if (counter == computerNum){
 				wins++;
 				$('#wins').text(wins);
-		        alert('You won!!!!');
+//		        alert('You won!!!!');
 		        ready();
 		    } else if(counter > computerNum){
 		    	loses++;
-		        alert('You lost!');
+//		        alert('You lost!');
 		        $('#loses').text(loses);
 		        ready();
 		    } 
